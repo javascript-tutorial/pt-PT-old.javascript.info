@@ -30,15 +30,15 @@ Diferentes engines tem diferentes "codinomes". Por exemplo:
 
 É bom lembrar os termos acima porque eles são utilizados em artigos na internet. Nós também os usaremos. Para exemplificar, se "um script X é suportado em V8", então, provavelmente, funcionará no Chrome e Opera.
 
-```smart header="How do engines work?"
+```smart header="Como as engines funcionam?"
 
-Engines are complicated. But the basics are easy.
+Engines são complicadas, mas os conceitos básicos são simples.
 
-1. The engine (embedded if it's a browser) reads ("parses") the script.
-2. Then it converts ("compiles") the script to the machine language.
-3. And then the machine code runs, pretty fast.
+1. A engine (nativa se for um navegador) lê ("analisa") o script.
+2. Então converte ("compila") o script para linguagem de máquina.
+3. Então a máquina (geralmente um computador) executa o programa de maneira rápida.
 
-The engine applies optimizations at each step of the process. It even watches the compiled script as it runs, analyzes the data that flows through it, and applies optimizations to the machine code based on that knowledge. When it's done, scripts run quite fast.
+A engine realiza otimizações para diferentes partes do processo. Até mesmo acompanha o script compilado conforme sua execução acontece, analisa os dados que são produzidos, e aplica otimizações no código de máquina de acordo com o que foi observado. Quando terminado, esse processo garante uma alta velocidade na execução do script.
 ```
 
 ## What can in-browser JavaScript do?
