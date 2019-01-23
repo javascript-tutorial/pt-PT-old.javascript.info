@@ -1,5 +1,5 @@
 # Tutorial Moderno de JavaScript
-Esse repositório corresponde ao conteúdo do Tutorial Moderno de JavaScript, publicado originalmente em: https://javascript.info.
+Esse repositório corresponde ao conteúdo (traduzido para o português) do Tutorial Moderno de JavaScript, publicado em: https://javascript.info. 
 
 ## Progresso
 <img src="http://progressed.io/bar/1"> **1-js** 		
