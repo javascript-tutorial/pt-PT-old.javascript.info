@@ -1,10 +1,10 @@
-# Uma introdução a JavaScript
+# Uma introdução ao JavaScript
 
-Vamos ver o que há de tão especial em relação a JavaScript, o que podemos fazer com essa linguagem, e quais outras tecnologias a utilizam.
+Vamos ver o que há de tão especial em relação ao JavaScript, o que podemos fazer com essa linguagem, e quais outras tecnologias a utilizam.
 
 ## O que é JavaScript?
 
-*JavaScript* foi criada primeiramente para *"dar vida a páginas web"*.
+*JavaScript* foi criado primeiramente para *"dar vida a páginas web"*.
 
 Os programas nessa linguagem são chamados *scripts*. Eles podem ser escritos diretamente em uma página HTML e executados automaticamente enquanto a página carrega.
 
@@ -13,22 +13,22 @@ Scripts são criados e executados como texto simples. Eles não precisam de prep
 Nesse sentido, JavaScript é bem diferente de outra linguagem chamada [Java](https://en.wikipedia.org/wiki/Java_(programming_language)).
 
 ```smart header="Por que <u>Java</u>Script?"
-Quando foi criada, JavaScript tinha outro nome: "LiveScript". Mas Java era muito popular na época, então foi decidido que estabelecer essa nova linguagem como "irmã mais nova" de Java ajudaria.
+Quando foi criado, JavaScript tinha outro nome: "LiveScript". Só que Java era muito popular na época, então foi decidido que estabelecer essa nova linguagem como "irmã mais nova" de Java ajudaria.
 
-Porém, conforme evoluiu, JavaScript se tornou uma linguagem totalmente independente, com suas próprias especificações, chamada [ECMAScript](http://en.wikipedia.org/wiki/ECMAScript), e hoje em dia efetivamente não tem nenhuma relação com Java.
+Porém, conforme evoluiu, JavaScript se tornou uma linguagem totalmente independente, com suas próprias especificações, chamada [ECMAScript](http://en.wikipedia.org/wiki/ECMAScript), e, hoje em dia, efetivamente não tem nenhuma relação com Java.
 ```
 
-Today, JavaScript can execute not only in the browser, but also on the server, or actually on any device that has a special program called [the JavaScript engine](https://en.wikipedia.org/wiki/JavaScript_engine).
+Hoje, JavaScript pode ser executado não só no navegador, como também no server, ou em qualquer dispositivo com um programa chamado [JavaScript Engine](https://en.wikipedia.org/wiki/JavaScript_engine).
 
-The browser has an embedded engine sometimes called a "JavaScript virtual machine".
+Os navegadores tem engines nativas, também chamadas de "JavaScript Virtual Machine", ou "Máquina Virtual de JavaScript".
 
-Different engines have different "codenames". For example:
+Diferentes engines tem diferentes "codinomes". Por exemplo:
 
-- [V8](https://en.wikipedia.org/wiki/V8_(JavaScript_engine)) -- in Chrome and Opera.
-- [SpiderMonkey](https://en.wikipedia.org/wiki/SpiderMonkey) -- in Firefox.
-- ...There are other codenames like "Trident" and "Chakra" for different versions of IE, "ChakraCore" for Microsoft Edge, "Nitro" and "SquirrelFish" for Safari, etc.
+- [V8](https://en.wikipedia.org/wiki/V8_(JavaScript_engine)) -- no Chrome e Opera.
+- [SpiderMonkey](https://en.wikipedia.org/wiki/SpiderMonkey) -- no Firefox.
+- ...há outros codinomes, como "Trident" e "Chakra" para diferentes versões do IE, "ChakraCore" pro Microsoft Edge, "Nitro" e "SquirrelFish" pro Safari, etc.
 
-The terms above are good to remember because they are used in developer articles on the internet. We'll use them too. For instance, if "a feature X is supported by V8", then it probably works in Chrome and Opera.
+É bom lembrar os termos acima porque eles são utilizados em artigos na internet. Nós também os usaremos. Para exemplificar, se "um script X é suportado em V8", então, provavelmente, funcionará no Chrome e Opera.
 
 ```smart header="How do engines work?"
 
