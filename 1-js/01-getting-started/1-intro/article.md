@@ -41,21 +41,21 @@ Engines são complicadas, mas os conceitos básicos são simples.
 A engine realiza otimizações para diferentes partes do processo. Até mesmo acompanha o script compilado conforme sua execução acontece, analisa os dados que são produzidos, e aplica otimizações no código de máquina de acordo com o que foi observado. Quando terminado, esse processo garante uma alta velocidade na execução do script.
 ```
 
-## What can in-browser JavaScript do?
+## O que JavaScript pode fazer dentro do navegador?
 
-Modern JavaScript is a "safe" programming language. It does not provide low-level access to memory or CPU, because it was initially created for browsers which do not require it.
+JavaScript Moderno é uma linguaggem de programação "segura". Não concede acesso de baixo nível à memória interna ou à CPU, já que foi criado para ser executado em navegadores, os quais não requerem esse tipo de acesso.
 
-Javascript's capabilities greatly depend on the environment it's running in. For instance, [Node.JS](https://wikipedia.org/wiki/Node.js) supports functions that allow JavaScript to read/write arbitrary files, perform network requests, etc.
+As funcionalidades de JavaScript dependem do ambiente em que está rodando. Por exemplo, [Node.js](https://wikipedia.org/wiki/Node.js) suporta funções que permitem JavaScript ler/escrever arquivos, fazer requisições na rede, etc.
 
-In-browser JavaScript can do everything related to webpage manipulation, interaction with the user, and the webserver.
+No navegador, JavaScript pode fazer tudo relacionado à manipulações de péginas, interações com o usuário e o webserver.
 
-For instance, in-browser JavaScript is able to:
+Por exemplo, no navegador JavaScript pode:
 
-- Add new HTML to the page, change the existing content, modify styles.
-- React to user actions, run on mouse clicks, pointer movements, key presses.
-- Send requests over the network to remote servers, download and upload files (so-called [AJAX](https://en.wikipedia.org/wiki/Ajax_(programming)) and [COMET](https://en.wikipedia.org/wiki/Comet_(programming)) technologies).
-- Get and set cookies, ask questions to the visitor, show messages.
-- Remember the data on the client-side ("local storage").
+- Adicionar HTML à página, alterar seu conteúdo, modificar estilos.
+- Reagir à ações do usuário (clicks, movimentos do cursor, pressionar teclas).
+- Enviar requisições através da rede para servers remotos, fazer download e upload de arquivos (também conhecido como [AJAX](https://en.wikipedia.org/wiki/Ajax_(programming)) e [COMET](https://en.wikipedia.org/wiki/Comet_(programming)))
+- Obter e definir coockies, fazer perguntas ao visitante, exibir mensagens.
+- Gravar dados no lado do cliente (client-side), também conhecido como "armazenamento local".
 
 ## What CAN'T in-browser JavaScript do?
 
