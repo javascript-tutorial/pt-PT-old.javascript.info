@@ -41,7 +41,7 @@ Engines são complicadas, mas os conceitos básicos são simples.
 A engine realiza otimizações para diferentes partes do processo. Até mesmo acompanha o script compilado conforme sua execução acontece, analisa os dados que são produzidos, e aplica otimizações no código de máquina de acordo com o que foi observado. Quando terminado, esse processo garante uma alta velocidade na execução do script.
 ```
 
-## O que JavaScript pode fazer dentro do navegador?
+## O que JavaScript PODE fazer dentro do navegador?
 
 JavaScript Moderno é uma linguaggem de programação "segura". Não concede acesso de baixo nível à memória interna ou à CPU, já que foi criado para ser executado em navegadores, os quais não requerem esse tipo de acesso.
 
@@ -57,27 +57,30 @@ Por exemplo, no navegador JavaScript pode:
 - Obter e definir coockies, fazer perguntas ao visitante, exibir mensagens.
 - Gravar dados no lado do cliente (client-side), também conhecido como "armazenamento local".
 
-## What CAN'T in-browser JavaScript do?
+## O que JavaScript NÃO PODE fazer dentro do navegador?
 
-JavaScript's abilities in the browser are limited for the sake of the user's safety. The aim is to prevent an evil webpage from accessing private information or harming the user's data.
+As capacidades do Javascrpit no navegador são limitadas para a segurança do usuário. O objetivo é prevenir que uma página com más intenções acesse dados sensíveis ou prejudique as informações do usuário.
 
-Examples of such restrictions include:
+Como exemplos dessas restrições, temos:
 
-- JavaScript on a webpage may not read/write arbitrary files on the hard disk, copy them or execute programs. It has no direct access to OS system functions.
 
-    Modern browsers allow it to work with files, but the access is limited and only provided if the user does certain actions, like "dropping" a file into a browser window or selecting it via an `<input>` tag.
+- Javascript de um página web não consegue ler/escrever arquivos no disco rígido, copiá-los ou executar programas. Não tem acesso direto para as funções do SO (Sistem Operacional).
 
-    There are ways to interact with camera/microphone and other devices, but they require a user's explicit permission. So a JavaScript-enabled page may not sneakily enable a web-camera, observe the surroundings and send the information to the [NSA](https://en.wikipedia.org/wiki/National_Security_Agency).
-- Different tabs/windows generally do not know about each other. Sometimes they do, for example when one window uses JavaScript to open the other one. But even in this case, JavaScript from one page may not access the other if they come from different sites (from a different domain, protocol or port).
+    Navegadores modernos permitem que o Javascript lide com arquivos, mas o acesso é limitado e só acontece se o usuário realizar certas ações, como "arrastar" arquivos dentro no navegador ou selecioná-lo através da tag `<input>`.
+    
+    Há formas de interagir com câmera/microfone ou outros dipositivos, mas para isso é necessário uma autorização explícita do usuário. Logo, uma página web que utiliza Javacript não pode acessar sua câmera sorrateiramente, observar suas ações e enviar para a [NSA](https://pt.wikipedia.org/wiki/Ag%C3%AAncia_de_Seguran%C3%A7a_Nacional).
+    
+- Diferentes tabs/janelas geralmente não sabem da exitência uma das outras. Há exceções, por exemplo quando uma janela usa Javascript para abrir outra. Mas mesmo nesses casos, Javascript de uma página pode não ter acesso à outra se elas são de diferentes origens (domínio, protocolo ou porta).
 
-    This is called the "Same Origin Policy". To work around that, *both pages* must contain a special JavaScript code that handles data exchange.
+    Isso é chamado de "Política de Mesma Origem". Para contornar esse problema, *ambas as páginas* devem conter um código Javascript especial que lida com a troca de informações.
 
-    This limitation is, again, for the user's safety. A page from `http://anysite.com` which a user has opened must not be able to access another browser tab with the URL `http://gmail.com` and steal information from there.
-- JavaScript can easily communicate over the net to the server where the current page came from. But its ability to receive data from other sites/domains is crippled. Though possible, it requires explicit agreement (expressed in HTTP headers) from the remote side. Once again, that's a safety limitation.
+    Essa limitação é, relembrando, para a segurança do usuário. Uma página do `http://sitegenerico.com.br` que o usuário abriu não pode ser capaz de acessar outra tab aberta com `https://www.mail.google.com/` e roubar informações de lá.
+    
+- Javascript pode facilmente se comunicar através da rede com o servidor da página aberta. Porém, a capacidade de receber dados de outros sites/domínios é desencorajada. Apesar de possível, necessita de concordância explícita (expressa com os cabeçalhos HTTP) do lado remoto. Mais uma vez, isso é uma medida de segurança.
 
 ![](limitations.png)
 
-Such limits do not exist if JavaScript is used outside of the browser, for example on a server. Modern browsers also allow plugin/extensions which may ask for extended permissions.
+Esses limites não existem se JavaScript for usado fora do navegador, por exemplo num servidor. Navegadores modernos também permitem plugins/extensões que podem requisitar mais permissões.
 
 ## What makes JavaScript unique?
 
