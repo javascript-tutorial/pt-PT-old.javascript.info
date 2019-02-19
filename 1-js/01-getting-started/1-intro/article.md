@@ -82,42 +82,41 @@ Como exemplos dessas restrições, temos:
 
 Esses limites não existem se JavaScript for usado fora do navegador, por exemplo num servidor. Navegadores modernos também permitem plugins/extensões que podem requisitar mais permissões.
 
-## What makes JavaScript unique?
+## O que torna JavaScript único?
 
-There are at least *three* great things about JavaScript:
+Há pelo menos *três* grandes pontos sobre JavaScript:
 
 ```compare
-+ Full integration with HTML/CSS.
-+ Simple things are done simply.
-+ Support by all major browsers and enabled by default.
++ Integração total com HTML/CSS.
++ Coisas simples de formas simples.
++ Suportado por todos os grandes navegadores.
 ```
-Javascript is the only browser technology that combines these three things.
+JavaScript é a única tecnologia para navegadores que combina essas três características.
 
-That's what makes JavaScript unique. That's why it's the most widespread tool for creating browser interfaces.
+Isso é o que torna JavaScript único. Por isso é a ferramenta para criação de interfaces de navegadores mais difundida.
 
-While planning to learn a new technology, it's beneficial to check its perspectives. So let's move on to the modern trends affecting it,  including new languages and browser abilities.
+Quando se planeja aprender uma nova tecnologia, é importante verificar suas perspectivas. Então vamos ver ps tópicos mais modernos que afetam JavaScript, incluindo novas linguagens e capacidades dos navegadores.
 
 
-## Languages "over" JavaScript
+## Linguagens "abaixo" do JavaScript
 
-The syntax of JavaScript does not suit everyone's needs. Different people want different features.
+A sintaxe do JavaScript não se encaixa para todas as necessidades. Diferentes pessoas querem diferentes características.
 
-That's to be expected, because projects and requirements are different for everyone.
+Isso é algo esperado, porque projetos e seus requisitos são diferentes para cada um.
 
-So recently a plethora of new languages appeared, which are *transpiled* (converted) to JavaScript before they run in the browser.
+Por isso, uma enorme quantidade de novas linguagens surgiram, e por sua vez são *convertidas* para JavaScript antes de serem executadas no navegador.
 
-Modern tools make the transpilation very fast and transparent, actually allowing developers to code in another language and auto-converting it "under the hood".
+Ferramentas modernas fazer a conversão ser bem rápida e transparente, permitindo que desenvolvedores programem em outras linguagens e auto-convertam seus programas "por baixo dos panos".
 
-Examples of such languages:
+Exemplos de tais linguagens:
 
-- [CoffeeScript](http://coffeescript.org/) is a "syntactic sugar" for JavaScript. It introduces shorter syntax, allowing us to write clearer and more precise code. Usually, Ruby devs like it.
-- [TypeScript](http://www.typescriptlang.org/) is concentrated on adding "strict data typing" to simplify the development and support of complex systems. It is developed by Microsoft.
-- [Dart](https://www.dartlang.org/) is a standalone language that has its own engine that runs in non-browser environments (like mobile apps). It was initially offered by Google as a replacement for JavaScript, but as of now, browsers require it to be transpiled to JavaScript just like the ones above.
+- [CoffeeScript](http://coffeescript.org/) é um "açúcar sintático" para JavaScript. Ele introduz uma sintaxe mais simples, permitindo escrever códigos mais claros e precisos. Normalmente desenvolvedores Ruby gostam. 
+- [TypeScript](http://www.typescriptlang.org/) é focada em adicionar "tipagem de dados rigorosa" para simplificar o desenvolvimento e suporte de sistemas complexos. Foi desenvolvida pela Microsoft.
+- [Dart](https://www.dartlang.org/) é uma linguagem autosuficiente, possuindo seus próprios mecanismos que executam em ambientes externos ao navegador (como aplicativos móveis). Foi inicialmente oferecido pelo Google como substituto do JavaScript, mas hoje em dia os navegadores requerem que seja convertido para JavaScript como os outros acima.
 
-There are more. Of course, even if we use one of these languages, we should also know JavaScript to really understand what we're doing.
+E há mais. Claro que, mesmo que se use uma dessas linguagens, deve-se também saber JavaScript para realmente entender o que está acontecendo.
 
-## Summary
-
-- JavaScript was initially created as a browser-only language, but is now used in many other environments as well.
-- Today, JavaScript has a unique position as the most widely-adopted browser language with full integration with HTML/CSS.
-- There are many languages that get "transpiled" to JavaScript and provide certain features. It is recommended to take a look at them, at least briefly, after mastering JavaScript.
+## Resumo
+- JavaScript foi inicialmente criado como uma linguagem apenas para navegadores, mas agora é usado em diversos outros ambientes também.
+- Hoje, JavaScript tem uma posicão de destaque como a linguagem para navegadores mais adotada, com integração total ao HTML/CSS.
+- Há muitas linguagems que são "traduzidas" para JavaScript e oferencem certas características. É recomendado que se dê uma olhada nelas, pelo menos brevemente, depois de dominar JavaScript.
